@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* container */
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  padding: 53px 98px;
+  background-color: #758bfd;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo link  */
+.logo_link {
+  width: 54px;
+  height: 54px;
+}
+
+/* HEADER NAVIGATION */
+
+.header_nav {
+  width: 393px;
+}
+
+ul {
+  display: flex;
+  column-gap: 50px;
+}
+/* NAV LINK STYLES */
+.li_a {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #ddeaf8;
+}
+.active {
+  color: #133b3a;
+}
+/* MAIN SECTION */
+.main_section {
+  margin: 94px 98px;
+  width: 1244px;
+  height: 843px;
+}
+
+/* SECOND SECTION */
+.sec_section {
+  display: flex;
+  width: 1244px;
+  height: 738px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* SECOND SECTION HEADING */
+.section_heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  text-align: left;
+  width: fit-content;
+  margin-bottom: 68px;
+  color: #27187f;
+}
+/* ARTICLES STYLES */
+article {
+  display: inline-block;
+  width: 400px;
+  height: 354px;
+  padding: 30px;
+  background-color: #ddeaf8;
+  border-radius: 10px;
+  text-align: center;
+}
+/* ARTICLE IMAGES STYLES */
+.article_image {
+  width: 100%;
+  height: 220px;
+}
+/* BUTTONS */
+.article_btn {
+  width: 145px;
+  height: 44px;
+  border-radius: 10px;
+  background-color: #758bfd;
+  margin: 30px 30px 30px 200px;
+  border: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  width: 1440px;
+  height: 239px;
+  max-width: 100%;
+  background-color: #758bfd;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* FOOTER HEADING STYLES */
+.footer_heading {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+/* FOOTER UNDERELINE */
+.underline {
+  width: 154px;
+  border-top: 3px solid #ffffff;
+  margin-bottom: 32px;
+}
+/* FOOTER NAVIGATION */
+.footer_nav {
+  width: 118px;
+}
